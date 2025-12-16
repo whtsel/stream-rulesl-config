@@ -1,10 +1,7 @@
 {
   "version": "1.0.5",
   "last_updated": "2025-12-16T00:00:00Z",
-  
-  // Use a placeholder to instruct the app to grab the device's native UA
   "default_user_agent": "$NATIVE_USER_AGENT", 
-  
   "stream_rules": [
     {
       "id": "livetv_m3u8_direct",
