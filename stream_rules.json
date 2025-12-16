@@ -1,19 +1,23 @@
 {
-  "version": "1.0.2",
-  "last_updated": "2025-12-09T00:00:00Z",
-  "default_user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+  "version": "1.0.5",
+  "last_updated": "2025-12-16T00:00:00Z",
+  
+  // Use a placeholder to instruct the app to grab the device's native UA
+  "default_user_agent": "$NATIVE_USER_AGENT", 
+  
   "stream_rules": [
     {
       "id": "livetv_m3u8_direct",
       "active": true,
       "match_url_keyword": ".m3u8",
       "initial_load_referer": "https://www.google.com/",
-      "token_mirror_referer": "https://stellarthread.com/",
+      "webview_url_pattern": "https://stellarthread.com/", 
+      "token_mirror_referer": "https://stellarthread.com/", 
       "token_regex": "https?:\\/\\/[a-zA-Z0-9.-]+:\\d+\\/hls\\/[a-zA-Z0-9._-]+\\.m3u8(?:\\?[a-zA-Z0-9=&._-]+)?",
       "needs_cookie_mirroring": false,
       "additional_headers": {
         "Accept": "*/*",
-        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8"
+        "Accept-Language": "*"
       }
     }
   ]
