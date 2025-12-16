@@ -1,15 +1,15 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "last_updated": "2025-12-16T00:00:00Z",
   "default_user_agent": "$NATIVE_USER_AGENT", 
   "stream_rules": [
     {
-      "id": "livetv_m3u8_direct",
+      "id": "livetv_m3u8_new_source",
       "active": true,
       "match_url_keyword": ".m3u8",
-      "initial_load_referer": "https://www.google.com/",
-      "webview_url_pattern": "https://stellarthread.com/", 
-      "token_mirror_referer": "https://stellarthread.com/", 
+      "initial_load_referer": "https://cdn.livetv869.me/", 
+      "webview_url_pattern": "https://cdn.livetv869.me/webplayer.php?t=ifr&c=2908434&lang=en&eid=323636087&lid=2908434&ci=1008&si=5", 
+      "token_mirror_referer": "https://cdn.livetv869.me/", 
       "token_regex": "https?:\\/\\/[a-zA-Z0-9.-]+:\\d+\\/hls\\/[a-zA-Z0-9._-]+\\.m3u8(?:\\?[a-zA-Z0-9=&._-]+)?",
       "needs_cookie_mirroring": false,
       "additional_headers": {
