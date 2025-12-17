@@ -8,7 +8,7 @@
       "active": true,
       "match_url_keyword": ".m3u8",
       "initial_load_referer": "https://cdn.livetv869.me/", 
-      "webview_url_pattern": "https://cdn.livetv869.me/webplayer.php?t=ifr&c=2908434&lang=en&eid=323636087&lid=2908434&ci=1008&si=5", 
+      "webview_url_pattern": "https://cdn.livetv869.me/webplayer.php?t=ifr&c=2661169&lang=en&eid=323669064&lid=2661169&ci=2&si=2", 
       "token_mirror_referer": "https://cdn.livetv869.me/", 
       "token_regex": "https?:\\/\\/[a-zA-Z0-9.-]+:\\d+\\/hls\\/[a-zA-Z0-9._-]+\\.m3u8(?:\\?[a-zA-Z0-9=&._-]+)?",
       "needs_cookie_mirroring": false,
